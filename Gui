@@ -47,7 +47,7 @@ TextButton_2.Font = Enum.Font.SourceSans
 TextButton_2.Text = "Auto raid/afk"
 TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_2.TextSize = 14.000
-TextButton_2.MOUSEBUTTON1DOWN:connect (function()
+TextButton_2.MOUSEBUTTON2DOWN:connect (function()
 end)
 
 TextButton_3.Parent = main
@@ -58,5 +58,5 @@ TextButton_3.Font = Enum.Font.SourceSans
 TextButton_3.Text = "Time  Challenge"
 TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_3.TextSize = 14.000
-TextButton_3.MOUSEBUTTON1DOWN:connect (function()
+TextButton_3.MOUSEBUTTON3DOWN:connect (function()
 end)

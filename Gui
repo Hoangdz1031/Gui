@@ -1,0 +1,62 @@
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+main.Position = UDim2.new(0.284649789, 0, 0.230182916, 0)
+main.Size = UDim2.new(0, 590, 0, 370)
+main.Active = true
+main.Draggable = true
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(55, 145, 111)
+TextLabel.Size = UDim2.new(0, 590, 0, 50)
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "SU (TEST GUI)"
+TextLabel.TextColor3 = Color3.fromRGB(85, 255, 127)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 30.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextWrapped = true
+
+TextButton.Parent = main
+TextButton.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+TextButton.Position = UDim2.new(0, 0, 0.167567566, 0)
+TextButton.Size = UDim2.new(0, 181, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Farm"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+TextButton.MOUSEBUTTON1DOWN:connect (function()
+end)
+
+TextButton_2.Parent = main
+TextButton_2.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+TextButton_2.Position = UDim2.new(0.693220377, 0, 0.167567566, 0)
+TextButton_2.Size = UDim2.new(0, 181, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Auto raid/afk"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+TextButton_2.MOUSEBUTTON1DOWN:connect (function()
+end)
+
+TextButton_3.Parent = main
+TextButton_3.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+TextButton_3.Position = UDim2.new(0.3457627, 0, 0.167567566, 0)
+TextButton_3.Size = UDim2.new(0, 181, 0, 50)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Time  Challenge"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+TextButton_3.MOUSEBUTTON1DOWN:connect (function()
+end)
